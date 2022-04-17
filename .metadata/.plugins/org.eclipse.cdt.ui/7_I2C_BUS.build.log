@@ -1,0 +1,10 @@
+16:46:41 **** Incremental Build of configuration Debug for project 7_I2C_BUS ****
+make -j6 all 
+arm-none-eabi-size   7_I2C_BUS.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30164	    492	   6524	  37180	   913c	7_I2C_BUS.elf
+Finished building: default.size.stdout
+ 
+
+16:46:41 Build Finished. 0 errors, 0 warnings. (took 298ms)
+

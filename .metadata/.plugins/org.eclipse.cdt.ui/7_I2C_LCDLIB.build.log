@@ -1,0 +1,10 @@
+16:33:19 **** Incremental Build of configuration Debug for project 7_I2C_LCDLIB ****
+make -j6 all 
+arm-none-eabi-size   7_I2C_LCDLIB.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9576	     36	   1660	  11272	   2c08	7_I2C_LCDLIB.elf
+Finished building: default.size.stdout
+ 
+
+16:33:20 Build Finished. 0 errors, 0 warnings. (took 233ms)
+

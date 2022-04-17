@@ -1,0 +1,10 @@
+13:57:44 **** Incremental Build of configuration Debug for project 4_TIMER_PWMDMA ****
+make -j6 all 
+arm-none-eabi-size   4_TIMER_PWMDMA.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11752	     20	   1740	  13512	   34c8	4_TIMER_PWMDMA.elf
+Finished building: default.size.stdout
+ 
+
+13:57:44 Build Finished. 0 errors, 0 warnings. (took 234ms)
+

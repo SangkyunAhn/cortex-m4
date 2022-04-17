@@ -1,0 +1,10 @@
+14:55:46 **** Incremental Build of configuration Debug for project 5_USB_TX ****
+make -j6 all 
+arm-none-eabi-size   5_USB_TX.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28356	    492	   6444	  35292	   89dc	5_USB_TX.elf
+Finished building: default.size.stdout
+ 
+
+14:55:47 Build Finished. 0 errors, 0 warnings. (took 288ms)
+

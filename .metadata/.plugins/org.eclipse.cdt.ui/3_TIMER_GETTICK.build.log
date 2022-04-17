@@ -1,0 +1,10 @@
+14:09:55 **** Incremental Build of configuration Debug for project 3_TIMER_GETTICK ****
+make -j6 all 
+arm-none-eabi-size   3_TIMER_GETTICK.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5992	     20	   1572	   7584	   1da0	3_TIMER_GETTICK.elf
+Finished building: default.size.stdout
+ 
+
+14:09:55 Build Finished. 0 errors, 0 warnings. (took 235ms)
+

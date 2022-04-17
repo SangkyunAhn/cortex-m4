@@ -1,0 +1,10 @@
+15:07:05 **** Incremental Build of configuration Debug for project 1_LED_WRITE ****
+make -j6 all 
+arm-none-eabi-size   1_LED_WRITE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5896	     20	   1572	   7488	   1d40	1_LED_WRITE.elf
+Finished building: default.size.stdout
+ 
+
+15:07:05 Build Finished. 0 errors, 0 warnings. (took 233ms)
+

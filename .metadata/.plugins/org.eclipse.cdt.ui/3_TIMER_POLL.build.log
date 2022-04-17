@@ -1,0 +1,10 @@
+15:02:48 **** Incremental Build of configuration Debug for project 3_TIMER_POLL ****
+make -j6 all 
+arm-none-eabi-size   3_TIMER_POLL.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5984	     20	   1572	   7576	   1d98	3_TIMER_POLL.elf
+Finished building: default.size.stdout
+ 
+
+15:02:48 Build Finished. 0 errors, 0 warnings. (took 245ms)
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;3_TIMER_POLL/3_TIMER_SW Debug.launch&apos; to &apos;3_TIMER_POLL Debug.launch&apos;" description="Rename resource &apos;3_TIMER_SW Debug.launch&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="3_TIMER_SW Debug.launch" name="3_TIMER_POLL Debug.launch" stamp="1644904904574" updateReferences="true"/>
+</session>

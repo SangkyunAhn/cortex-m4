@@ -1,0 +1,10 @@
+10:12:58 **** Incremental Build of configuration Debug for project 1LED_3TIMES ****
+make -j6 all 
+arm-none-eabi-size   1LED_3TIMES.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5864	     20	   1572	   7456	   1d20	1LED_3TIMES.elf
+Finished building: default.size.stdout
+ 
+
+10:12:59 Build Finished. 0 errors, 0 warnings. (took 241ms)
+

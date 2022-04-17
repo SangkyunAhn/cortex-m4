@@ -1,0 +1,10 @@
+16:23:18 **** Incremental Build of configuration Debug for project 1_LED_BITBAND ****
+make -j6 all 
+arm-none-eabi-size   1_LED_BITBAND.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5720	     24	   1568	   7312	   1c90	1_LED_BITBAND.elf
+Finished building: default.size.stdout
+ 
+
+16:23:18 Build Finished. 0 errors, 0 warnings. (took 236ms)
+

@@ -1,0 +1,10 @@
+15:53:10 **** Incremental Build of configuration Debug for project 5_USB_ECHO ****
+make -j6 all 
+arm-none-eabi-size   5_USB_ECHO.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25968	    396	   6444	  32808	   8028	5_USB_ECHO.elf
+Finished building: default.size.stdout
+ 
+
+15:53:11 Build Finished. 0 errors, 0 warnings. (took 305ms)
+

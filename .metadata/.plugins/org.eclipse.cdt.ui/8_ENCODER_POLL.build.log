@@ -1,0 +1,10 @@
+11:14:41 **** Incremental Build of configuration Debug for project 8_ENCODER_POLL ****
+make -j6 all 
+arm-none-eabi-size   8_ENCODER_POLL.elf 
+   text	   data	    bss	    dec	    hex	filename
+  32912	    508	   6604	  40024	   9c58	8_ENCODER_POLL.elf
+Finished building: default.size.stdout
+ 
+
+11:14:41 Build Finished. 0 errors, 0 warnings. (took 293ms)
+

@@ -1,0 +1,10 @@
+11:58:48 **** Incremental Build of configuration Debug for project 2_SW_NOCHAT ****
+make -j6 all 
+arm-none-eabi-size   2_SW_NOCHAT.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5948	     20	   1572	   7540	   1d74	2_SW_NOCHAT.elf
+Finished building: default.size.stdout
+ 
+
+11:58:48 Build Finished. 0 errors, 0 warnings. (took 232ms)
+

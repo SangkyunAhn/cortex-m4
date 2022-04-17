@@ -1,0 +1,20 @@
+10:12:31 **** Incremental Build of configuration Debug for project 3_TIMER_BUZZER ****
+make -j6 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xC -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "3_TIMER_BUZZER.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\gbsa\STM32CubeIDE\workspace_1.8.0\3_TIMER_BUZZER\STM32F401CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="3_TIMER_BUZZER.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 3_TIMER_BUZZER.elf
+ 
+arm-none-eabi-size   3_TIMER_BUZZER.elf 
+arm-none-eabi-objdump -h -S  3_TIMER_BUZZER.elf  > "3_TIMER_BUZZER.list"
+arm-none-eabi-objcopy  -O binary  3_TIMER_BUZZER.elf  "3_TIMER_BUZZER.bin"
+   text	   data	    bss	    dec	    hex	filename
+   7232	     20	   1644	   8896	   22c0	3_TIMER_BUZZER.elf
+Finished building: default.size.stdout
+ 
+Finished building: 3_TIMER_BUZZER.bin
+ 
+Finished building: 3_TIMER_BUZZER.list
+ 
+
+10:12:32 Build Finished. 0 errors, 0 warnings. (took 745ms)
+

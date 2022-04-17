@@ -1,0 +1,10 @@
+11:00:42 **** Incremental Build of configuration Debug for project 6_ADC_TEMP ****
+make -j6 all 
+arm-none-eabi-size   6_ADC_TEMP.elf 
+   text	   data	    bss	    dec	    hex	filename
+  43860	    856	   6512	  51228	   c81c	6_ADC_TEMP.elf
+Finished building: default.size.stdout
+ 
+
+11:00:42 Build Finished. 0 errors, 0 warnings. (took 295ms)
+
